@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#main-image {
+  background: #4287f5 url('https://images.pexels.com/photos/33109/fall-autumn-red-season.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')
+  no-repeat center top;
+  height: 500px;
+  background-size: cover;
+  background-attachment: fixed;
+  border-radius: 60px;
+
+}
+
+#main-plane {
+  border-radius: 40px;
+  height: 200px;
+  background-size: 150px;
+  background-color: #a7392c;
+  background-image: url('https://img.freepik.com/premium-photo/closeup-orange-leaf-texture_268174-65.jpg');
+}
+
+#Text {
+  background-color: #ffae82;
+  text-shadow: #ffffff;
+  height: 500px;
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 2px;
+  line-height: 40px;
+  background-size: cover;
+  border-style:double;
+  border-color: red;
+  border-width: 10px;
+  border-radius: 40px 70px;
+  opacity: 0.8;
+
+}
+
+.background-image {
+  background-color: #e96d29;
+  background-image: url('https://media.istockphoto.com/id/92774227/photo/autumn-maple-leaves.jpg?s=612x612&w=0&k=20&c=f1TEj5mIBhsWaYf8OXNq3ZTp3WzllD26vlI7wG2Momo=');
+  background-size: 200px;
+  background-attachment: fixed;
+}
+
+.block {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  margin: 20px;
+}
+
+#first {
+  float: right;
+}
+#second {
+  float: left;
+  background-color: blue;
+}
